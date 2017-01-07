@@ -1,0 +1,19 @@
+title: 覚えたことを復唱してみる。だって、忘れっぽいんですもの。
+author: okusama27
+
+# baseurl: 'kamekokamekame.net'
+
+paginate: 5
+
+markdown: kramdown
+theme: "tactile"
+
+twitter_username: okusama27
+github_username:  okusama27
+
+keep_files: ['assets']
+
+# https://jekyllrb.com/docs/posts/
+# https://github.com/jekyll/minima
+gems:
+  - jekyll-feed
