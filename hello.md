@@ -11,7 +11,7 @@ layout: home
 {% for post in site.posts %}
   <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
   </p>
   <div class="content">
     {{ post.content }}
