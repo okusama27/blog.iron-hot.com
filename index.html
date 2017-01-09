@@ -38,9 +38,8 @@ layout: default
 <h3>最近の記事</h3>
 <ul class="post-list">
 {% assign counter = 0 %}
-{% for post in paginator.posts %}
+{% for post in site.posts %}
  {% assign counter = counter | plus: 1 %}
-  {% if counter < 5 %}
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -48,6 +47,8 @@ layout: default
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h4>
   </li>
+  {% if counter > 5 %}
+    {% break %}
   {% endif %}
 {% endfor %}
   </ul>
