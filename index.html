@@ -34,6 +34,7 @@ layout: default
   {% endif %}
 </div>
 
+<div>
 <h3>最近の記事</h3>
 <ul class="post-list">
 {% assign counter = 0 %}
@@ -42,15 +43,17 @@ layout: default
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <h2>
+    <h4>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </h2>
+    </h4>
   </li>
   {% if counter > 5 %}
     {% break %}
   {% endif %}
 {% endfor %}
   </ul>
+</div>
+
 <div>
   <a href="/posts.html">記事一覧</a>
 </div>
