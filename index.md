@@ -8,7 +8,7 @@ layout: home
 ---
 
 <!-- ページ分割されたpostsに対してループ -->
-{% for post in paginator.posts %}
+{% for post in site.posts %}
   <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
   <p class="author">
     <span class="date">{{ post.date }}</span>
