@@ -7,7 +7,6 @@
 layout: home
 ---
 
-{% if paginator.total_pages > 1 %}
 <!-- ページ分割されたpostsに対してループ -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
@@ -34,5 +33,3 @@ layout: home
     <span class="next ">Next</span>
   {% endif %}
 </div>
-{% endif %}
-
