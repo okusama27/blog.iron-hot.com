@@ -6,4 +6,4 @@
 #
 layout: default
 ---
-[2004-10-23-article](_posts/2004-10-23-article.md)
+[2004-10-23-article](_posts/2004-10-23-article)
