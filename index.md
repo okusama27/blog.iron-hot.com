@@ -7,3 +7,4 @@
 layout: default
 ---
 [2004-10-23-article](_posts/2004-10-23-article)
+[2004-10-23-article](./articles/2016-08-01-article)
