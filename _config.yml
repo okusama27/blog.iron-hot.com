@@ -6,7 +6,7 @@ author: okusama27
 paginate: 5
 
 markdown: kramdown
-theme: "tactile"
+theme: "jekyll-theme-tactile"
 
 twitter_username: okusama27
 github_username:  okusama27
