@@ -6,6 +6,3 @@
 #
 layout: home
 ---
-[2004-10-23-article](_posts/2004-10-23-article)
-[2004-10-23-article](./darticles/2016-08-01-article)
-

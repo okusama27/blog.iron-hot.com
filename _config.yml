@@ -6,7 +6,7 @@ author: okusama27
 paginate: 5
 
 markdown: kramdown
-theme: "jekyll-theme-tactile"
+theme: "minima"
 
 twitter_username: okusama27
 github_username:  okusama27
@@ -17,3 +17,4 @@ keep_files: ['assets']
 # https://github.com/jekyll/minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
