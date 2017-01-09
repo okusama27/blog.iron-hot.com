@@ -3,7 +3,7 @@ author: okusama27
 
 # baseurl: 'kamekokamekame.net'
 
-paginate: 1
+paginate: 5
 
 markdown: kramdown
 theme: "minima"
