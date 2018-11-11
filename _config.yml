@@ -5,6 +5,7 @@ paginate: 1
 
 markdown: kramdown
 theme: "minima"
+twitter_username: okusama27
 
 keep_files: ['assets']
 
