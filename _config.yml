@@ -1,7 +1,7 @@
 title: 覚えたことを復唱してみる。だって、忘れっぽいんですもの。
 author: okusama27
 
-paginate: 1
+paginate: 5
 
 markdown: kramdown
 theme: "minima"
@@ -14,8 +14,3 @@ keep_files: ['assets']
 # https://jekyllrb.com/docs/posts/
 # https://github.com/jekyll/minima
 gems: [jekyll-feed, jekyll-paginate]
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-    date_format: "%Y-%m-%d"
