@@ -1,12 +1,9 @@
 title: 覚えたことを復唱してみる。だって、忘れっぽいんですもの。
-author: okusama27
 
 paginate: 1
 
 markdown: kramdown
 theme: "minima"
-
-twitter_username: okusama27
 
 keep_files: ['assets']
 
