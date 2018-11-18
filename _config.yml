@@ -1,35 +1,20 @@
 # Site settings
-name: "覚えたことを復唱してみる。"
-title: "覚えたことを復唱してみる。"
-description:  "だって、忘れっぽいんですもの。"
+name: "覚えたことを復唱してみる。だって、忘れっぽいんですもの。"
+# title: "覚えたことを復唱してみる。"
+# description:  "だって、忘れっぽいんですもの。"
 author: "okusama27"
 #baseurl:      ""
 #url: "blog.iron-hot.com"
-
 #paginate: 5
-
 #permalink:    /:year/:title
-
 #markdown: kramdown
 #theme: "minima"
-
 #twitter_username: "okusama27"
 #github_username:  "okusama27"
-
-#github:       "okusama27"
-#twitter:      "okusama27"
-
-
 #keep_files: ['assets']
-
 # https://jekyllrb.com/docs/posts/
 # https://github.com/jekyll/minima
 #gems: [jekyll-feed, jekyll-paginate]
-
-# Build settings
-#markdown:     kramdown
-#sass:
-#    style: :compressed
 
 master_repo: false
 #url: "http://vinitkumar.me/white-paper"
@@ -38,7 +23,7 @@ highlighter: rouge
 
 plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
 
-paginate: 4
+paginate: 5
 
 logo:             logo.png
 disqus_shortname:
