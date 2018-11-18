@@ -3,8 +3,8 @@ name: "覚えたことを復唱してみる。"
 title: "覚えたことを復唱してみる。"
 description:  "だって、忘れっぽいんですもの。"
 author: "okusama27"
-baseurl:      ""
-url: "blog.iron-hot.com"
+#baseurl:      ""
+#url: "blog.iron-hot.com"
 
 #paginate: 5
 
