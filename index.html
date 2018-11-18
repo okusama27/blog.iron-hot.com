@@ -1,40 +1,28 @@
 ---
-#
-# You don't need to edit this file, it's empty on purpose.
-# Edit minima's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: default
 ---
 
-<!-- ページ分割されたpostsに対してループ -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title | escape }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+{% for post in site.posts limit:1 %}
+  <article class="module color3">
+    <h2>
+      <a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
+    <p>
+      {{ post.content | strip_html | truncate: 250 }}
+    </p>
+  </article>
 {% endfor %}
 
+{% for post in site.posts offset:1 limit:4 %}
+  <article class="module color3">
+    <h2>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
+</article>
+{% endfor %}
 
-<!-- ページネーションリンク -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">前へ</a>
-  {% else %}
-    <span class="previous">前へ</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">次へ</a>
-  {% else %}
-    <span class="next ">次へ</span>
-  {% endif %}
-</div>
-<br><br>
-
-<div>
-  <a href="/posts.html">記事一覧</a>
-</div>
+<section class="module color3">
+  <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
+</section>

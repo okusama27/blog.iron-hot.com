@@ -1,16 +1,31 @@
-title: 覚えたことを復唱してみる。だって、忘れっぽいんですもの。
-author: okusama27
+# Site settings
+title: "覚えたことを復唱してみる。だって、忘れっぽいんですもの。"
+description:  "日々の徒然"
+author: "okusama27"
+baseurl:      ""
+url: "blog.iron-hot.com"
 
-paginate: 5
+#paginate: 5
 
-markdown: kramdown
-theme: "minima"
+permalink:    /:year/:title
 
-twitter_username: okusama27
-github_username:  okusama27
+#markdown: kramdown
+#theme: "minima"
 
-keep_files: ['assets']
+#twitter_username: "okusama27"
+#github_username:  "okusama27"
+
+github:       "okusama27"
+twitter:      "okusama27"
+
+
+#keep_files: ['assets']
 
 # https://jekyllrb.com/docs/posts/
 # https://github.com/jekyll/minima
-gems: [jekyll-feed, jekyll-paginate]
+#gems: [jekyll-feed, jekyll-paginate]
+
+# Build settings
+markdown:     kramdown
+sass:
+    style: :compressed
