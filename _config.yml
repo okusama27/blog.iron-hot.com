@@ -1,7 +1,7 @@
 # Site settings
 name: "覚えたことを復唱してみる。だって、忘れっぽいんですもの。"
-# title: "覚えたことを復唱してみる。"
-# description:  "だって、忘れっぽいんですもの。"
+title: "覚えたことを復唱してみる。"
+subtitle:  "だって、忘れっぽいんですもの。"
 author: "okusama27"
 #baseurl:      ""
 #url: "blog.iron-hot.com"
