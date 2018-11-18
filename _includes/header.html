@@ -1,11 +1,14 @@
-<aside class="main-header">
-  <header class="module">
-    <h1><a href="/">{{ site.title }}</a></h1>
+<div class="header-container container">
+  <header>
+    <a href="{{ site.url }}" class="top-link">{{ site.name }}</a>
+      <ul class="nav">
+        <!--Change the  URL here if working on an absolute domain-->
+        <li><a href="{{ site.url }}">Home</a></li>
+        <li><a href="{{ site.url }}/about">About</a></li>
+        {% if site.owner.github %}
+          <li><a href="{{ site.owner.github }}" target="_blank">Projects</a></li>
+        {% endif %}
+        <li><a href="{{ site.url }}/feed.xml">RSS</a></li>
+      </ul>
   </header>
-  <div class="module color2">
-    {{ site.description }}
-  </div>
-  <div class="module color3">
-    <a href="https://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a>
-  </div>
-</aside>
+</div>

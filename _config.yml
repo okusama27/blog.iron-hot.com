@@ -1,4 +1,5 @@
 # Site settings
+name: "覚えたことを復唱してみる。"
 title: "覚えたことを復唱してみる。"
 description:  "だって、忘れっぽいんですもの。"
 author: "okusama27"
@@ -7,7 +8,7 @@ url: "blog.iron-hot.com"
 
 #paginate: 5
 
-permalink:    /:year/:title
+#permalink:    /:year/:title
 
 #markdown: kramdown
 #theme: "minima"
@@ -15,8 +16,8 @@ permalink:    /:year/:title
 #twitter_username: "okusama27"
 #github_username:  "okusama27"
 
-github:       "okusama27"
-twitter:      "okusama27"
+#github:       "okusama27"
+#twitter:      "okusama27"
 
 
 #keep_files: ['assets']
@@ -26,6 +27,32 @@ twitter:      "okusama27"
 #gems: [jekyll-feed, jekyll-paginate]
 
 # Build settings
-markdown:     kramdown
-sass:
-    style: :compressed
+#markdown:     kramdown
+#sass:
+#    style: :compressed
+
+master_repo: false
+#url: "http://vinitkumar.me/white-paper"
+markdown: kramdown
+highlighter: rouge
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 4
+
+logo:             logo.png
+disqus_shortname:
+
+rtl: false
+owner:
+  name:           okusama27
+  avatar:         "https://ja.gravatar.com/userimage/20039466/31cc35861726fcc457193c8fce59d621.png"
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: okusama27
+  github: https://github.com/okusama27
+
+# Analytics and webmaster tools stuff goes here
+#google_analytics:
+#google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:
