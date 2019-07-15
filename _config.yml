@@ -1,44 +1,26 @@
-# Site settings
-name: "覚えたことを復唱してみる。だって、忘れっぽいんですもの。"
-title: "覚えたことを復唱してみる。"
-subtitle:  "だって、忘れっぽいんですもの。"
-author: "okusama27"
-#baseurl:      ""
-#url: "blog.iron-hot.com"
-#paginate: 5
-#permalink:    /:year/:title
-#markdown: kramdown
-#theme: "minima"
-#twitter_username: "okusama27"
-#github_username:  "okusama27"
-#keep_files: ['assets']
-# https://jekyllrb.com/docs/posts/
-# https://github.com/jekyll/minima
-#gems: [jekyll-feed, jekyll-paginate]
+# Permalinks
+permalink:           pretty
 
-master_repo: false
-#url: "http://vinitkumar.me/white-paper"
-markdown: kramdown
-highlighter: rouge
+# Setup
+title:               覚えたことを復唱してみる。だって、忘れっぽいんですもの。
+tagline:             だって、忘れっぽいんですもの。
+url:                 blog.iron-hot.com
+paginate:            10
+baseurl:             ""
 
-plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-paginate: 5
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
 
-logo:             logo.png
-disqus_shortname:
-
-rtl: false
-owner:
-  name:           okusama27
-  avatar:         "https://ja.gravatar.com/userimage/20039466/31cc35861726fcc457193c8fce59d621.png"
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: okusama27
-  github: https://github.com/okusama27
-
-# Analytics and webmaster tools stuff goes here
-#google_analytics:
-#google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
-about: "日々の徒然です"
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
